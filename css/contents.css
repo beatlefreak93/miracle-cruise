@@ -88,7 +88,7 @@
 
     .pagination {display:none;}
 
-    #intro {align-items:start;background-image:url(../images/intro_bg_m.png);padding-top:160px;}
+    #intro {align-items:end;background-image:url(../images/intro_bg_m.png);padding-bottom:210px;}
     #intro .intro-box h1 {font-size:60px;line-height:1.2;margin-bottom:0;letter-spacing:-1px;}
     #intro .intro-box h1 span {font-size:30px;}
     #intro .intro-box:after {content:none;}
@@ -107,13 +107,14 @@
     .title-area h2 {font-size:28px;}
     .title-area p {font-size:16px;}
 
-    .night .ship-info dd {font-size:16px;}
+    .night .ship-info dd {font-size:16px;max-height:none;border-top:1px solid #fff;}
     #subscription h2 {font-size:28px;word-break:keep-all;line-height:1.5;margin-bottom:40px;}
     #subscription .agree {margin-top:50px;}
     #subscription .form-enter {margin-top:50px;height:50px;}
     #subscription .form-item input {height:50px;}
 
-    .night {background-attachment:fixed;}
+
+    #subscription {padding-bottom:80px;}
 
     .night .ship-info dt {font-size:20px;padding:20px 0;}
     .night .ship-info dt img {height:24px;}
